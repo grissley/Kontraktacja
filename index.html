@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <title>Kontraktacja</title>
+  </head>
+  <body>
+    <header>
+      <section id="header">
+        <div>
+          <img src="/images/logo (2).png" alt="logo Unikat" id="logo" />
+        </div>
+        <div id="menu">
+          <ul>
+            <li>Katalog</li>
+          </ul>
+        </div>
+      </section>
+    </header>
+    <section id="loginSection">
+      <form>
+        <label for="login">Login:</label>
+        <input type="text" id="login" name="login" /><br /><br />
+        <label for="password">Hasło:</label>
+        <input type="password" id="password" name="password" /><br /><br />
+        <input
+          type="submit"
+          value="Zaloguj"
+          id="loginButton"
+          onclick="checkLogin(event)"
+        />
+      </form>
+    </section>
+    <script src="/script.js"></script>
+  </body>
+</html>

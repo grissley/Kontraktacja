@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #fff0ee;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #ffdeda;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  overflow: hidden;
+}
+
+#logo {
+  height: 100px;
+  width: auto;
+}
+
+#menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  color: #110200;
+}
+
+#menu li {
+  margin-right: 1.5rem;
+  font-size: 1.4rem;
+  letter-spacing: 3px;
+}
+
+#loginSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#login,
+#password {
+  /* padding: 0.5rem; */
+  height: 1.4rem;
+  margin-left: 0.5rem;
+}
+
+label {
+  font-size: 1.3rem;
+  align-items: center;
+  color: #110200;
+}
+
+form {
+  text-align: center;
+  background: rgba(255, 222, 218, 0.5);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 10px;
+  padding: 40px;
+}
+
+#loginButton {
+  font-size: 16px;
+  padding: 12px 42px;
+  margin-top: 12px;
+  border-radius: 5px;
+  background-color: #ffc3bb;
+  color: #110200;
+  border: none;
+}
+
+#loginButton:hover {
+  cursor: pointer;
+  background-color: #be1600;
+  color: #fff0ee;
+}
+
+h1 {
+  text-align: center;
+  margin: 60px;
+  font-size: 2.5rem;
+}
+
+.product {
+  display: flex;
+}
+
+.product img {
+  margin: 0 auto; /* Center the image */
+  max-height: 30rem;
+}
+
+.product .sizes {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 20px; /* Add some space from the image */
+}
+
+.product .sizes .size-group {
+  display: flex;
+}
+
+.product .sizes .size-group:not(:last-child) {
+  margin-bottom: 5px; /* Add spacing between size groups */
+}
+
+.product .sizes .size-group button {
+  margin-right: 5px; /* Add spacing between the buttons */
+}
