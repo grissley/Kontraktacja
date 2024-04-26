@@ -89,6 +89,10 @@ h1 {
 
 .product {
   display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* gap: 3rem; */
+  margin-bottom: 20px;
 }
 
 .product img {
