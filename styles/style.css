@@ -85,19 +85,26 @@ h1 {
   text-align: center;
   margin: 60px;
   font-size: 2.5rem;
+  background-color: #ffdeda;
+  border-radius: 30px;
+  padding: 20px;
 }
 
 .product {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
-  /* gap: 3rem; */
+  /* gap: 10rem; */
   margin-bottom: 20px;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .product img {
   margin: 0 auto; /* Center the image */
   max-height: 30rem;
+  border-radius: 9px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .product .sizes {
@@ -131,4 +138,26 @@ h1 {
 .button-size:hover {
   background-color: #be1600;
   color: #fff0ee;
+}
+
+.description {
+  min-height: 100%;
+  background-color: #ffdeda;
+  border-radius: 9px;
+  font-size: 1.2rem;
+  width: 33%;
+  letter-spacing: 2px;
+}
+
+.description ul {
+  list-style: none;
+}
+
+.description li {
+  margin-bottom: 1rem;
+}
+
+.price {
+  font-weight: bolder;
+  font-size: 1.5rem;
 }
