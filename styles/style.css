@@ -118,3 +118,17 @@ h1 {
 .product .sizes .size-group button {
   margin-right: 5px; /* Add spacing between the buttons */
 }
+
+.button-size {
+  background-color: #ffc3bb;
+  color: #110200;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-size:hover {
+  background-color: #be1600;
+  color: #fff0ee;
+}
