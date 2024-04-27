@@ -35,6 +35,11 @@ body {
   letter-spacing: 3px;
 }
 
+a {
+  text-decoration: none;
+  color: #110200;
+}
+
 #loginSection {
   display: flex;
   justify-content: center;
