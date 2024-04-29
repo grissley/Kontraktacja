@@ -48,7 +48,7 @@ buttons.forEach((button) => {
 
     // Create an input field with default value 1
     const inputField = document.createElement("input");
-    inputField.type = "text";
+    inputField.type = "integer";
     inputField.value = 1;
 
     // Create a button to add
