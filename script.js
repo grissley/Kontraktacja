@@ -10,6 +10,8 @@ function checkLogin(event) {
   }
 }
 
+// script.js
+
 // Get the buttons with the .button-size class
 const buttons = document.querySelectorAll(".button-size");
 
@@ -58,10 +60,29 @@ buttons.forEach((button) => {
       inputField.value = parseInt(inputField.value) + 1;
     });
 
+    // Create a span element to hold the calculated value
+    const calculatedValue = document.createElement("span");
+
+    // Function to update the calculated value
+    const updateCalculatedValue = () => {
+      const result = parseFloat(inputField.value) * 85.37;
+      const roundedResult = result.toFixed(2);
+      calculatedValue.textContent = roundedResult;
+    };
+
+    // Attach the function to the input field events
+    inputField.addEventListener("input", updateCalculatedValue);
+    plusButton.addEventListener("click", updateCalculatedValue);
+    minusButton.addEventListener("click", updateCalculatedValue);
+
+    // Initial calculation
+    updateCalculatedValue();
+
     // Append the elements to the list item
     li.appendChild(minusButton);
     li.appendChild(inputField);
     li.appendChild(plusButton);
+    li.appendChild(calculatedValue);
 
     // Get the ordering list section
     const orderingList = document.querySelector(".ordering-list");
