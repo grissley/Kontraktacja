@@ -183,7 +183,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  /* gap: 1rem; */
+  gap: 1rem;
   font-size: 1.5rem;
   letter-spacing: 2px;
   background-color: #ffdeda;
