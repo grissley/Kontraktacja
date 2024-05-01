@@ -175,4 +175,30 @@ h1 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 10rem;
+}
+
+.ordering-list li {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* gap: 1rem; */
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  background-color: #ffdeda;
+  padding: 1rem 2rem;
+  border-radius: 9px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+
+.ordering-list li span {
+  color: #be1600;
+  margin-left: auto;
+}
+
+.ordering-list input {
+  width: 1rem;
 }
